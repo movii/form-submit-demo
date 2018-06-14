@@ -25,7 +25,7 @@ var displayForm = (req, res) => {
     '<meta charset="utf-8">',
     '</head>',
     '<body>',
-    '<form action="/submit" method="post" enctype="multipart/form-data">',
+    '<form action="/submit" method="post" enctype="application/x-www-form-urlencoded">',
     '<p><input type="text" name="text1" value="text default">',
     '<p><input type="text" name="text2" value="a&#x03C9;b">',
     '<p><input type="file" name="file1">',
